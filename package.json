@@ -1,0 +1,24 @@
+{
+  "name": "mw-deploy-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup",
+    "watch": "tsup --watch",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "^1.7.1",
+    "@octokit/rest": "^20.1.0",
+    "@types/node": "^20.12.7",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "undici": "^6.14.1"
+  }
+}

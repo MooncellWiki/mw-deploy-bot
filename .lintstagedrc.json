@@ -1,0 +1,7 @@
+{
+  "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
+    "pnpm biome check --apply .",
+    "pnpm biome format --write .",
+    "pnpm biome lint --apply ."
+  ]
+}
